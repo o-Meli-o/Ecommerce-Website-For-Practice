@@ -1,15 +1,29 @@
 import React from 'react'
 import {assets} from '../assets/assets'
 import { NavLink } from 'react-router-dom'
-
+import './Navbar.css'
+// navbar-dropdown-menu: hidden sm:flex gap-5 text-5m text-gray-700
+//w-2/4 border-none h-[1.5px] bg-gray-700
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between py-5 font-medium'>
-       <img src={assets.logo} className='w-36' alt="" />
-       <ul className='hidden sm:flex gap-5 text-5m text-gray-700'>
-        <NavLink className='flex flex-col items-center gap-1'>
+    <div className='navbar-container'>
+       <img src={assets.logo} className='logo' alt="" />
+       <ul className='navbar-dropdown-menu'>
+        <NavLink to='/' className='navlink'>
             <p>Home</p>
-            <hr className='w-2/4 border-none h-[1.5px] bg-gray-700'/>
+            <hr className='navlink-hr'/>
+        </NavLink>
+        <NavLink to='/collection' className='navlink'>
+            <p>Collection</p>
+            <hr className='navlink-hr'/>
+        </NavLink>
+        <NavLink to='/about' className='navlink'>
+            <p>About</p>
+            <hr className='navlink-hr'/>
+        </NavLink>
+        <NavLink to='/contact' className='navlink'>
+            <p>Contact</p>
+            <hr className='navlink-hr'/>
         </NavLink>
        </ul>
     </div>

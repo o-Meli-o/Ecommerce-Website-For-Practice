@@ -11,7 +11,8 @@ import men_1_5 from './men_1_5.jpg'
 import logo from './logo.png'
 
 export const assets = {
-    logo
+    logo,
+    men_1_1
     /* icon1,
     icon2,
     icon3,

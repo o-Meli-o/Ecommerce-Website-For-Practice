@@ -1,0 +1,28 @@
+.product-item-link{
+    cursor: pointer;
+    color: #374151;
+}
+.product-item-link-div1{
+    overflow: hidden;
+}
+#product-item-img{
+    transition: 0.3s ease-in-out;
+    border: #374151 solid 1px;
+    width: 300px;
+    height: 200px;
+}
+#product-item-img:hover{
+    transform: scale(1.1,1.1);
+}
+.product-item-link-p1{
+    padding-top: 12px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.product-item-link-p2{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}

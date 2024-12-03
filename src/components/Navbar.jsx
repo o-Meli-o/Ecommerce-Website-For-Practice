@@ -7,7 +7,10 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar-container'>
-       <img src={assets.logo} className='logo' alt="" />
+        
+        <Link to='/'>
+            <img src={assets.logo} className='logo' alt="" />
+        </Link>
 
        <ul className='navbar-dropdown-menu'>
         <NavLink to='/' className='navlink'>

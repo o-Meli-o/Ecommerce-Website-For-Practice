@@ -1,0 +1,22 @@
+.title-container{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.p1{
+    color: #6B7280;
+    border: none;
+}
+.p1 span{
+    color: #374151;
+    font-weight: 500;
+    border: none;
+}
+.p2{
+    width: 32px;
+    height: 2px;
+    background-color: #374151;
+    border: none;
+}
